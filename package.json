@@ -1,0 +1,18 @@
+{
+  "name": "noa",
+  "version": "1.0.10",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --config nodemon.json"
+  },
+  "dependencies": {
+    "@kingworldjs/static": "^0.0.0-experimental.2",
+    "kingworld": "^0.0.0-experimental.53",
+    "lru-cache": "^7.14.1"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "nodemon": "^2.0.20"
+  },
+  "module": "index.js"
+}
