@@ -30,6 +30,6 @@ new KingWorld()
         })
     )
     .get('/', () => 'Noa')
-    .listen(3000)
+    .listen(8080)
 
 console.log('🦊 KINGWORLD is running at :3000')

@@ -32,7 +32,7 @@ jobs:
 
     - uses: deploys-app/deploys-action@v1
       with:
-        project: saltyaom
+        project: hifumin
         location: gke.cluster-rcf2
         name: noa
         image: ghcr.io/saltyaom/noa

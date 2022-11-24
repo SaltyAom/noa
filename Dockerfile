@@ -25,3 +25,5 @@ COPY public public
 
 ENV ENV production
 CMD ["./bun", "src/index.ts"]
+
+EXPOSE 8080
